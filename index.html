@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Pacientes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Registrar Paciente</h1>
+    <form id="registroForm">
+      <input type="text" id="nombre" placeholder="Nombre" required>
+      <input type="text" id="apellido" placeholder="Apellido" required>
+      <input type="text" id="dni" placeholder="DNI" required>
+      <input type="text" id="direccion" placeholder="Dirección">
+      <input type="text" id="telefono" placeholder="Teléfono">
+      <input type="email" id="email" placeholder="Email">
+      <button type="submit">Registrar</button>
+    </form>
+    <div id="responseMessage"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
